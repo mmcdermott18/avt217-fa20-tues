@@ -1,6 +1,39 @@
+body {
+  background-color: #111111;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin: 50px;
+}
 h1 {
-  color: red;
+  font-size: 90px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
 }
 p {
-  color: blue;
+  font-size: 22px;
+  letter-spacing: .5px;
+  margin-top: 0;
+}
+a {
+  text-decoration: none; /* this gets rid of the default underline */
+}
+a:link {
+  color: tomato;
+}
+a:visited {
+  color: dodgerblue;
+}
+a:hover {
+  color: whitesmoke;
+}
+a:active {
+  color: whitesmoke;
 }
