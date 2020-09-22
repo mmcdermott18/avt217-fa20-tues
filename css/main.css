@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: tomato;
+  margin: 50px;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  text-align: left;
+}
+a:link, a:visited {
+  color: black;
+}
+a:hover, a:active {
+  color: yellow;
+}
+li {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
