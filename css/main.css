@@ -1,31 +1,72 @@
+/****** general styles ******/
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 16px;
 }
 body {
   background-color: tomato;
-  margin: 50px;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
+
+/****** layout styles ******/
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+
+/****** type styles ******/
 h1 {
   font-size: 4rem;
   text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+/****** link styles ******/
 a:link, a:visited {
   color: black;
+  text-decoration: none;
+  border-bottom: 2px solid gold;
 }
 a:hover, a:active {
-  color: yellow;
+  color: gold;
 }
+
+/****** list styles ******/
 li {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
   text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
+/****** image styles ******/
 img {
   max-width: 100%;
 }
