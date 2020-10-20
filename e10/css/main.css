@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #333333;
+}
+.board {
+  width: 900px;
+  background-color: whitesmoke;
+  padding: 50px;
+  display: flow-root;
+  margin: 25px auto;
+  /* margin-top: 25px; */
+  /* margin-bottom: 25px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: tomato;
+}
+.black {
+  background-color: #333333;
+}
