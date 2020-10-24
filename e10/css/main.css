@@ -3,18 +3,20 @@
 }
 body {
   margin: 0;
-  background-color: #333333;
 }
+
+/* checkerboard layout styles */
 .board {
-  width: 900px;
-  background-color: whitesmoke;
-  padding: 50px;
+  width: 800px;
   display: flow-root;
-  margin: 25px auto;
-  /* margin-top: 25px; */
-  /* margin-bottom: 25px; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  margin: 50px auto 0;
+
+  /* the below is the same as the above */
+
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0; */
 }
 .red, .black {
   width: 100px;
@@ -26,4 +28,180 @@ body {
 }
 .black {
   background-color: #333333;
+}
+
+/* column layout styles */
+
+#col header, .subhead, .column, #col footer {
+  background-color: dodgerblue;
+}
+#col header, #col footer {
+  width: 800px;
+  height: 100px;
+  margin: 25px auto;
+}
+.subhead {
+  width: 800px;
+  height: 25px;
+  margin: 0 auto;
+}
+#col main {
+  width: 800px;
+  margin: 25px auto;
+  display: flow-root;
+}
+.column {
+  width: 250px;
+  height: 600px;
+  float: left;
+}
+.center-margin {
+  margin: 0 25px;
+}
+
+/* blog layout styles */
+
+#blog header, .content, .avatar, .byline {
+  background-color: #333333;
+}
+#blog header {
+  width: 800px;
+  height: 100px;
+  margin: 25px auto 50px;
+}
+#blog main {
+  width: 800px;
+  margin: 0 auto;
+}
+.post {
+  margin: 0 0 50px;
+  display: flow-root;
+}
+.content {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+.avatar {
+  width: 175px;
+  height: 200px;
+  margin-left: 25px;
+  float: left;
+}
+.byline {
+  width: 600px;
+  height: 50px;
+  margin: 25px 0 50px;
+  float: left;
+}
+
+/* tennis court layout styles */
+#tennis {
+  background-color: seagreen;
+}
+.court, .side, .back, .service {
+  border: 5px solid white;
+  background-color: mediumseagreen;
+}
+.court {
+  width: 560px;
+  display: flow-root;
+  margin: calc(50vh - 305px) auto;
+}
+.single {
+  width: 300px;
+  float: left;
+}
+.side {
+  width: 125px;
+  height: 300px;
+  float: left;
+}
+.back {
+  width: 300px;
+  height: 100px;
+  float: left;
+}
+.service {
+  width: 150px;
+  height: 200px;
+  float: left;
+}
+
+/* california case layout styles */
+body#california {
+  background-color: #333333;
+}
+.case {
+  width: calc((50px * 24) + 110px);
+  border: 2px solid whitesmoke;
+  margin: 25px;
+  padding: 25px;
+  display: flow-root;
+  margin: calc(50vh - (758px / 2)) auto;
+  background-color: #111111;
+}
+.eightbyseven {
+  width: calc((50px * 8) + 2px);
+  float: left;
+  border: 1px solid whitesmoke;
+}
+.midmar {
+  margin: 0 25px;
+}
+.twobythree, .twobytwo {
+  width: calc(50px * 2);
+  float: left;
+}
+.onebytwo {
+  width: 50px;
+  float: left;
+}
+.twobythree-r, .twobytwo-r, .onebytwo-r, .onebyone-r {
+  float: left;
+  border: 1px solid whitesmoke;
+}
+.twobythree-r {
+  width: 100px;
+  height: 300px;
+}
+.twobytwo-r {
+  width: 100px;
+  height: 200px;
+}
+.onebytwo-r {
+  width: 50px;
+  height: 200px;
+}
+.onebyone-r {
+  width: 50px;
+  height: 100px;
+}
+.onebyone-r:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+.tomato {
+  background-color: tomato;
+}
+.onebytwo-r:hover {
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+.blue {
+  background-color: dodgerblue;
+}
+.twobytwo-r:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+.gold {
+  background-color: gold;
+}
+.twobythree-r:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.whitesmoke {
+  background-color: whitesmoke;
 }
