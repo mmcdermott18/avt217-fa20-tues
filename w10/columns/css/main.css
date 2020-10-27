@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.column-contain {
+  width: 50vw;
+  display: flow-root;
+  margin: 0 auto;
+}
+.head, .footer {
+  background-color: tomato;
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.subhead {
+  background-color: tomato;
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.column {
+  background-color: tomato;
+  width: calc((100% - 100px) / 3);
+  height: 600px;
+  float: left;
+  margin-top: 25px;
+}
+.col-margin {
+  margin-right: 50px;
+  margin-left: 50px;
+  /* background-color: blue; */
+}

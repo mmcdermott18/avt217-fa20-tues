@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #333333;
+}
+.pumpkin {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 200px auto;
+}
+.left-pump {
+  width: 500px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.center-pump {
+  width: 300px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  border-radius: 50%;
+}
+.right-pump {
+  width: 500px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  border-radius: 50%;
+}
+.stem {
+  width: 100px;
+  height: 200px;
+  background-color: brown;
+  position: absolute;
+  top: -120px;
+  left: 420px;
+  z-index: -5;
+  transform: rotate(15deg);
+}
+.left-eye, .right-eye {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+}
+.left-eye {
+  top: 150px;
+  left: 250px;
+}
+.right-eye {
+  top: 150px;
+  left: 550px;
+}
+.pupil {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -10px;
+  left: 30px;
+}
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid black;
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
