@@ -8,14 +8,29 @@ img {
   width: 100%;
 }
 header {
-  background-color: red;
-  padding: 50px;
+  background-color: #ff5722;
+  padding: 25px 50px;
+  display: flow-root;
 }
 main {
   background-color: yellow;
 }
 footer {
   background-color: blue;
+}
+nav {
+  float: right;
+}
+.title {
+  float: left;
+}
+.title p {
+  margin: 0;
+}
+.hero {
+  background: url(../img/puffins-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 300px 0;
 }
 ul {
   margin: 0;
@@ -24,4 +39,11 @@ ul {
 }
 li {
   float: left;
+  margin-left: 25px;
+}
+h1 {
+  text-align: center;
+}
+p.subhead {
+  text-align: center;
 }
