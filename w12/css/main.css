@@ -7,16 +7,17 @@ body {
 img {
   width: 100%;
 }
-header {
-  background-color: #ff5722;
-  padding: 25px 50px;
-  display: flow-root;
-}
 main {
   background-color: yellow;
 }
 footer {
   background-color: blue;
+}
+/* header */
+header {
+  background-color: #ff5722;
+  padding: 25px 50px;
+  display: flow-root;
 }
 nav {
   float: right;
@@ -27,11 +28,6 @@ nav {
 .title p {
   margin: 0;
 }
-.hero {
-  background: url(../img/puffins-3.jpg) no-repeat center center;
-  background-size: cover;
-  padding: 300px 0;
-}
 ul {
   margin: 0;
   padding: 0;
@@ -40,6 +36,12 @@ ul {
 li {
   float: left;
   margin-left: 25px;
+}
+/* background image section */
+.hero {
+  background: url(../img/puffins-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 300px 0;
 }
 h1 {
   text-align: center;
