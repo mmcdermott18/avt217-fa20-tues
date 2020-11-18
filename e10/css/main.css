@@ -60,7 +60,9 @@ body {
 }
 
 /* blog layout styles */
-
+img {
+  width: 100%;
+}
 #blog header, .content, .avatar, .byline {
   background-color: #333333;
 }

@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: dodgerblue;
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  from {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: calc(100vw - 200px);
+    width: 200px;
+    height: 200px;
+  }
+  50% {
+    top: calc(100vh - 200px);
+    left: calc(100vw - 200px);
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+  }
+  75% {
+    top: calc(100vh - 100px);
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 0;
+    background-color: tomato;
+  }
+}
